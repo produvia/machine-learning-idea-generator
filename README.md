@@ -21,6 +21,18 @@ $ pipenv shell
 ```
 
 ## Usage
+Retrieve Google Trends Interest Over Time for up to five keywords:
+
 ```
-$ python3 start.py
+$ python3 retrieve_google_trends.py
 ```
+
+This command generates `output.csv` file
+
+## Dataset
+
+The `data` folder contains `search_phrases_on_google.txt`, a dataset which contains ML-related keywords. This dataset can be for analysis with Google Trends script `retrieve_google_trends.py`
+
+## To Do
+
+- Implement a script to iterate through `data/search_phrases_on_google.txt` while adhering to Google Trend's five term search limitation. Learn more [here](https://github.com/GeneralMills/pytrends#common-api-parameters).
