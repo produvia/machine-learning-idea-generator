@@ -10,6 +10,8 @@ pp = pprint.PrettyPrinter(depth=10)
 # Configure pytrends
 pytrends = TrendReq(hl='en-US', tz=360)
 
+# TODO: Import data/search_phrases_on_google.txt as dataset
+
 # Define search google search phrases
 kw_list = ['predict earthquakes', 'prediction hurricanes', 'predicting earthquakes']
 pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
