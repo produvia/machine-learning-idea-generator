@@ -9,8 +9,8 @@ In a world of infinite machine learning opportunities or use cases, how do we pu
 Clone the repo and change directory to it
 
 ```
-$ git clone https://github.com/produvia/ml-idea-generator.git
-$ cd ml-idea-generator
+$ git clone https://github.com/produvia/machine-learning-idea-generator.git
+$ cd machine-learning-idea-generator
 ```
 
 Install requirements
@@ -24,7 +24,7 @@ $ pipenv shell
 Retrieve Google Trends Interest Over Time for up to five keywords:
 
 ```
-$ python3 retrieve_google_trends.py
+$ python3 retrieve_google_trends_data.py
 ```
 
 This command generates `output.csv` file
